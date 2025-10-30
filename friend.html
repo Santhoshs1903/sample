@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meri Dost – Ek Kahani 😄</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Comic Sans MS', cursive;
+    }
+
+    body {
+      background-image: url("friend-bg.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: #fff;
+      text-align: center;
+      backdrop-filter: brightness(80%);
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      text-shadow: 2px 2px 10px #000;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    p {
+      font-size: 1.4rem;
+      margin-top: 15px;
+      text-shadow: 1px 1px 6px #000;
+      animation: slideUp 2s ease-in-out;
+      max-width: 600px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.8); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .emoji {
+      font-size: 2rem;
+      margin-top: 20px;
+      animation: float 3s infinite ease-in-out;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+  </style>
+</head>
+<body>
+  <h1>मेरी दोस्त की कहानी 😄</h1>
+  <p>ये लड़की हंसती तो आसमान भी शरमा जाए ☁️<br>
+  बात करे तो नेटवर्क भी फुल हो जाए 📱💬<br>
+  और जब गुस्सा करे... तो भगवान भी बोले – “भाई बच जा!” 😂</p>
+  
+  <p>पर सच्ची बात ये है 👉<br>
+  इस जैसी दोस्त अगर मिल जाए, तो लाइफ सॉलिड बन जाती है 💖</p>
+
+  <div class="emoji">😂💫🌸💖</div>
+</body>
+</html>
